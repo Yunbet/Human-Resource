@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Type">5a8a5b11937f3110d0ac703efaba1087</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-17 07:21:30</sys_created_on>
+        <sys_id>e7ca5711937f3110d0ac703efaba107c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Benefits</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name>question_choice_e7ca5711937f3110d0ac703efaba107c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-17 07:24:13</sys_updated_on>
+        <text>Benefits</text>
+        <value>benefits</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e7ca5711937f3110d0ac703efaba107c"/>
+</record_update>

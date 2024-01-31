@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Human Resource</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Human Resource</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">d89b8828d9313110cedf7dffddb48f0d</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-10 00:04:13</sys_created_on>
+        <sys_id>c49a0e0d93033110d0ac703efaba10fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Human Resource</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name>sys_wizard_answer_c49a0e0d93033110d0ac703efaba10fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-10 00:04:13</sys_updated_on>
+        <table/>
+        <target_url>x_994488_hr_human_resource.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

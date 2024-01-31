@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_994488_hr.hr_admin" name="x_994488_hr.hr_admin">0a274ac593033110d0ac703efaba10ba</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-09 23:49:20</sys_created_on>
+        <sys_id>42274ac593033110d0ac703efaba10bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0a274ac593033110d0ac703efaba10ba</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name>sys_embedded_help_role_42274ac593033110d0ac703efaba10bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-09 23:49:20</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

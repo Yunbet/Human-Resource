@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Employee Seperation">b0cf0962937bb110d0ac703efaba1006</cat_item>
+        <cat_variable>IO:52d1112293bbb110d0ac703efaba10f3</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate LO, CN and Email.</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+   var ga = new GlideAjax('employeeLeaveUtility'); // employeeLeaveUtility is the script include class/name
+   ga.addParam('sysparm_name', 'getLocation'); // getLocation name of function/method in our script include
+   
+
+   ga.addParam('sysparm_user_id', g_form.getValue('employee_leaving')); //Gets the value of employeeleaving its sys id for a particular user and stores is it in the sysparm user id
+
+   ga.getXML(callBack);
+}
+
+function callBack(response) {
+	var answer = response.responseXML.documentElement.getAttribute("answer"); 
+    if(answer){ 
+
+	var result = JSON.parse(answer); //parsing the result from ss to cleint script 
+
+	g_form.setValue('location',result.location);
+	g_form.setValue('contact_number',result.phone);
+	g_form.setValue('email',result.email);
+	}
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 19:27:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e84328a793bf3110d0ac703efaba109f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Populate LO, CN and Email.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name>catalog_script_client_e84328a793bf3110d0ac703efaba109f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 21:44:30</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">c90746c593033110d0ac703efaba1028</application>
+        <file_path/>
+        <instance_id>8866749c1b797d90c84543f4bd4bcbdc</instance_id>
+        <instance_name>dev182063</instance_name>
+        <name>catalog_script_client_e84328a793bf3110d0ac703efaba109f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Employee Seperation"&gt;b0cf0962937bb110d0ac703efaba1006&lt;/cat_item&gt;&lt;cat_variable&gt;IO:52d1112293bbb110d0ac703efaba10f3&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate LO, CN and Email.&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+   var ga = new GlideAjax('employeeLeaveUtility'); // employeeLeaveUtility is the script include class/name
+   ga.addParam('sysparm_name', 'getLocation'); // getLocation name of function/method in our script include
+   
+
+   ga.addParam('sysparm_user_id', g_form.getValue('employee_leaving')); //Gets the value of employeeleaving its sys id for a particular user and stores is it in the sysparm user id
+
+   ga.getXML(callBack);
+}
+
+function callBack(response) {
+	var answer = response.responseXML.documentElement.getAttribute("answer"); 
+    if(answer){ 
+
+	var result = JSON.parse(answer); //parsing the result from ss to cleint script 
+
+	g_form.setValue('location',result.location);
+	g_form.setValue('contact_number',result.phone);
+	g_form.setValue('email',result.email);
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-23 19:27:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e84328a793bf3110d0ac703efaba109f&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate LO, CN and Email.&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Human Resource" source="x_994488_hr"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_e84328a793bf3110d0ac703efaba109f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-23 21:44:30&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>478755766</payload_hash>
+        <record_name>Populate LO, CN and Email.</record_name>
+        <reverted_from/>
+        <source>0287c24993033110d0ac703efaba1051</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 21:44:30</sys_created_on>
+        <sys_id>dc2add6793b37110d0ac703efaba10ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d38482d4e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 21:44:30</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>d42add675eb37110c25ba5864635c5ae</update_guid>
+        <update_guid_history>d42add675eb37110c25ba5864635c5ae:478755766,891fb02b4b3371101f8948bd01f13e98:2096231556,bc2e70a7e4337110ad6eef17c0586e22:2003404622,8c7d30a76f337110623e344f5fe2169e:1281522446,aaaa7ca34733711051c7e909953fadb8:2096231556</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Populate LO, CN and Email.">2a8bd9e793b37110d0ac703efaba1092</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 21:50:40</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>0a68ddc921ad407f839689a393a1db59</sys_id>
+        <sys_metadata>e84328a793bf3110d0ac703efaba109f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate LO, CN and Email.</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_scope_delete display_value="">4f4f1a97f8834ca8bfb74c0066966840</sys_scope_delete>
+        <sys_update_name>catalog_script_client_e84328a793bf3110d0ac703efaba109f</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_e84328a793bf3110d0ac703efaba109f">dc2add6793b37110d0ac703efaba10ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 21:50:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

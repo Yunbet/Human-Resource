@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="human user resource " language="en" table="x_994488_hr_human_user_resource_">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>human user resource </label>
+            <language>en</language>
+            <name>x_994488_hr_human_user_resource_</name>
+            <plural>human user resource s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-16 19:14:35</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>human user resource</sys_name>
+            <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+            <sys_update_name>sys_documentation_x_994488_hr_human_user_resource___en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-16 19:14:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

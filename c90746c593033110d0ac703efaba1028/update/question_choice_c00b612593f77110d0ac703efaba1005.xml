@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Type">4b5a21e193f77110d0ac703efaba1045</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-17 17:50:48</sys_created_on>
+        <sys_id>c00b612593f77110d0ac703efaba1005</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>General HR</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name>question_choice_c00b612593f77110d0ac703efaba1005</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-17 17:50:48</sys_updated_on>
+        <text>General HR</text>
+        <value>general hr</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=c00b612593f77110d0ac703efaba1005"/>
+</record_update>

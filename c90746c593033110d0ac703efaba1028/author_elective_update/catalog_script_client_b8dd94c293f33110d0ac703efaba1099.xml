@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="HR General Inquiry">c118d92d93777110d0ac703efaba1040</cat_item>
+        <cat_variable>IO:9b892d2193f77110d0ac703efaba10de</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Contact Number - Autopopulate.</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+   if(control.name === 'requested_for') { //if the variable is requested for,when a name appears on that feild
+	var contactNumberField = g_form.getControl('contact_number'); 
+	var requestedForUser = g_form.getValue('requested_for');
+	var contactNumber = getUserContactNumber(requestedForUser);
+
+	contactNumberField.value = contactNumber;
+   } 
+   
+}
+function getUserContactNumber(userId){
+	var userDetails = getUserDetailsbyId(userId);
+	if(userDetails && userDetails.contact_number) {
+		return userDetails.contact_number;
+	} else {
+		return 'contact number not available';
+	}
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 02:04:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b8dd94c293f33110d0ac703efaba1099</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Contact Number - Autopopulate.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name>catalog_script_client_b8dd94c293f33110d0ac703efaba1099</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 02:15:58</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">c90746c593033110d0ac703efaba1028</application>
+        <file_path/>
+        <instance_id>8866749c1b797d90c84543f4bd4bcbdc</instance_id>
+        <instance_name>dev182063</instance_name>
+        <name>catalog_script_client_b8dd94c293f33110d0ac703efaba1099</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="HR General Inquiry"&gt;c118d92d93777110d0ac703efaba1040&lt;/cat_item&gt;&lt;cat_variable&gt;IO:9b892d2193f77110d0ac703efaba10de&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Contact Number - Autopopulate.&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+   if(control.name === 'requested_for') { //if the variable is requested for,when a name appears on that feild
+	var contactNumberField = g_form.getControl('contact_number'); 
+	var requestedForUser = g_form.getValue('requested_for');
+	var contactNumber = getUserContactNumber(requestedForUser);
+
+	contactNumberField.value = contactNumber;
+   } 
+   
+}
+function getUserContactNumber(userId){
+	var userDetails = getUserDetailsbyId(userId);
+	if(userDetails &amp;&amp; userDetails.contact_number) {
+		return userDetails.contact_number;
+	} else {
+		return 'contact number not available';
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-19 02:04:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b8dd94c293f33110d0ac703efaba1099&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Contact Number - Autopopulate.&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Human Resource" source="x_994488_hr"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_b8dd94c293f33110d0ac703efaba1099&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-19 02:15:58&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1599382444</payload_hash>
+        <record_name>Contact Number - Autopopulate.</record_name>
+        <reverted_from/>
+        <source>0287c24993033110d0ac703efaba1051</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 02:15:59</sys_created_on>
+        <sys_id>d858e8ce93f33110d0ac703efaba103a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d1f80eb2d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 02:15:59</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>d058e8cee7f33110609213092b1e283a</update_guid>
+        <update_guid_history>d058e8cee7f33110609213092b1e283a:-1599382444,b195280e63f33110733af9a370480022:880622646</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Contact Number - Autopopulate.">fa99644293373110d0ac703efaba1017</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 02:21:36</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>c9bdfc38b3f5400e999fe3bfb5244e64</sys_id>
+        <sys_metadata>b8dd94c293f33110d0ac703efaba1099</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contact Number - Autopopulate.</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_scope_delete display_value="">4f4f1a97f8834ca8bfb74c0066966840</sys_scope_delete>
+        <sys_update_name>catalog_script_client_b8dd94c293f33110d0ac703efaba1099</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_b8dd94c293f33110d0ac703efaba1099">d858e8ce93f33110d0ac703efaba103a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 02:21:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

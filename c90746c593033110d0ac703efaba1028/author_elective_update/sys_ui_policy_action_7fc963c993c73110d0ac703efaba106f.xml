@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>close_notes</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-10 07:00:39</sys_created_on>
+        <sys_id>7fc963c993c73110d0ac703efaba106f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>close_notes</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7fc963c993c73110d0ac703efaba106f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-10 07:00:39</sys_updated_on>
+        <table>x_994488_hr_human_resource</table>
+        <ui_policy display_value=" Mandatory close notes">e259a34993c73110d0ac703efaba103a</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">c90746c593033110d0ac703efaba1028</application>
+        <file_path/>
+        <instance_id>8866749c1b797d90c84543f4bd4bcbdc</instance_id>
+        <instance_name>dev182063</instance_name>
+        <name>sys_ui_policy_action_7fc963c993c73110d0ac703efaba106f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>close_notes</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-10 07:00:39</sys_created_on><sys_id>7fc963c993c73110d0ac703efaba106f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>close_notes</sys_name><sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package><sys_policy/><sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope><sys_update_name>sys_ui_policy_action_7fc963c993c73110d0ac703efaba106f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-10 07:00:39</sys_updated_on><table>x_994488_hr_human_resource</table><ui_policy display_value=" Mandatory close notes">e259a34993c73110d0ac703efaba103a</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1045173228</payload_hash>
+        <record_name>close_notes</record_name>
+        <reverted_from/>
+        <source>0287c24993033110d0ac703efaba1051</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-10 07:00:39</sys_created_on>
+        <sys_id>dce923c993c73110d0ac703efaba10c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c52872d250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-10 07:00:39</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>14e923c920c73110ddde82c5ccfb94c3</update_guid>
+        <update_guid_history>14e923c920c73110ddde82c5ccfb94c3:-1045173228</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-14 14:18:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>74850bf9163249a99683ad3a87fbcad1</sys_id>
+        <sys_metadata>7fc963c993c73110d0ac703efaba106f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>close_notes</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_parent display_value="">e259a34993c73110d0ac703efaba103a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_scope_delete display_value="">4f4f1a97f8834ca8bfb74c0066966840</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_7fc963c993c73110d0ac703efaba106f</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_7fc963c993c73110d0ac703efaba106f">dce923c993c73110d0ac703efaba10c3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-14 14:18:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

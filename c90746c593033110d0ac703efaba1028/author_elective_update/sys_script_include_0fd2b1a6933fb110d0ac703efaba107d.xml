@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_994488_hr.Autopopulate_catalog_item</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Autopopulate_catalog_item</name>
+        <script><![CDATA[var Autopopulate_catalog_item = Class.create();
+Autopopulate_catalog_item.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'Autopopulate_catalog_item',
+	populateEmployeeDetails: function(employee_leaving) {
+		var userGR = newGlideRecord('sys_user');
+		if (userGR.get(employee_leaving)) {
+			g_form.setValue('location',userGR.loocation);
+			g_form.setValue('contact_number',userGR.phone);
+			g_form.setValue('email',userGR.email);
+		}
+	},
+	
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 21:24:09</sys_created_on>
+        <sys_id>0fd2b1a6933fb110d0ac703efaba107d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Autopopulate_catalog_item</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name>sys_script_include_0fd2b1a6933fb110d0ac703efaba107d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 21:24:09</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">c90746c593033110d0ac703efaba1028</application>
+        <file_path/>
+        <instance_id>8866749c1b797d90c84543f4bd4bcbdc</instance_id>
+        <instance_name>dev182063</instance_name>
+        <name>sys_script_include_0fd2b1a6933fb110d0ac703efaba107d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_994488_hr.Autopopulate_catalog_item&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;Autopopulate_catalog_item&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var Autopopulate_catalog_item = Class.create();
+Autopopulate_catalog_item.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'Autopopulate_catalog_item',
+	populateEmployeeDetails: function(employee_leaving) {
+		var userGR = newGlideRecord('sys_user');
+		if (userGR.get(employee_leaving)) {
+			g_form.setValue('location',userGR.loocation);
+			g_form.setValue('contact_number',userGR.phone);
+			g_form.setValue('email',userGR.email);
+		}
+	},
+	
+
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 21:24:09&lt;/sys_created_on&gt;&lt;sys_id&gt;0fd2b1a6933fb110d0ac703efaba107d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Autopopulate_catalog_item&lt;/sys_name&gt;&lt;sys_package display_value="Human Resource" source="x_994488_hr"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_0fd2b1a6933fb110d0ac703efaba107d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 21:24:09&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-379383905</payload_hash>
+        <record_name>Autopopulate_catalog_item</record_name>
+        <reverted_from/>
+        <source>0287c24993033110d0ac703efaba1051</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 21:24:10</sys_created_on>
+        <sys_id>19b83d2e933fb110d0ac703efaba10c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d28c279330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 21:24:10</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>5db83d2e2a3fb110cf6a63757f603cbf</update_guid>
+        <update_guid_history>5db83d2e2a3fb110cf6a63757f603cbf:-379383905</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 21:34:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>ac065e43af3c4464a05b7e74edf14210</sys_id>
+        <sys_metadata>0fd2b1a6933fb110d0ac703efaba107d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Autopopulate_catalog_item</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_scope_delete display_value="">4f4f1a97f8834ca8bfb74c0066966840</sys_scope_delete>
+        <sys_update_name>sys_script_include_0fd2b1a6933fb110d0ac703efaba107d</sys_update_name>
+        <sys_update_version display_value="sys_script_include_0fd2b1a6933fb110d0ac703efaba107d">19b83d2e933fb110d0ac703efaba10c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 21:34:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

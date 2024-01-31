@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="DELETE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>com_glideapp_questionset_default_question_editor</formatter>
+        <name>HR Variable Editor</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-10 02:08:40</sys_created_on>
+        <sys_id>6676ea0d93833110d0ac703efaba10bc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>HR Variable Editor</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name>sys_ui_formatter_6676ea0d93833110d0ac703efaba10bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-10 20:19:42</sys_updated_on>
+        <table>x_994488_hr_human_resource</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">c90746c593033110d0ac703efaba1028</application>
+        <file_path/>
+        <instance_id>8866749c1b797d90c84543f4bd4bcbdc</instance_id>
+        <instance_name>dev182063</instance_name>
+        <name>sys_ui_formatter_6676ea0d93833110d0ac703efaba10bc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter"><sys_ui_formatter action="INSERT_OR_UPDATE"><active>true</active><angular_module/><formatter>com_glideapp_questionset_default_question_editor</formatter><name>HR Variable Editor</name><seismic_component/><sys_class_name>sys_ui_formatter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-10 02:08:40</sys_created_on><sys_id>6676ea0d93833110d0ac703efaba10bc</sys_id><sys_mod_count>3</sys_mod_count><sys_name>HR Variable Editor</sys_name><sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package><sys_policy/><sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope><sys_update_name>sys_ui_formatter_6676ea0d93833110d0ac703efaba10bc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-10 20:19:42</sys_updated_on><table>x_994488_hr_human_resource</table><type>formatter</type></sys_ui_formatter></record_update>]]></payload>
+        <payload_hash>-2040774295</payload_hash>
+        <record_name>HR Variable Editor</record_name>
+        <reverted_from/>
+        <source>0287c24993033110d0ac703efaba1051</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-10 20:19:42</sys_created_on>
+        <sys_id>41c0aa5593077110d0ac703efaba1072</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5562baa90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-10 20:19:42</sys_updated_on>
+        <type>UI Formatter</type>
+        <update_guid>49c0aa556b077110f789437bbe176d71</update_guid>
+        <update_guid_history>49c0aa556b077110f789437bbe176d71:-2040774295,f95f92d1b20771106d4992ea7395a8f7:-45970974,15776e4df7833110a1bf4d51041c8b3d:-2040774295,d707a60dfc833110f78d143a77218f2b:919623732</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 06:52:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_formatter">sys_ui_formatter</sys_db_object>
+        <sys_id>38ff2dd8432346ba9c6db85c0d9f5fd9</sys_id>
+        <sys_metadata>6676ea0d93833110d0ac703efaba10bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Variable Editor</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_parent display_value="Human Resource">ce5906c993033110d0ac703efaba10fb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_scope_delete display_value="">4f4f1a97f8834ca8bfb74c0066966840</sys_scope_delete>
+        <sys_update_name>sys_ui_formatter_6676ea0d93833110d0ac703efaba10bc</sys_update_name>
+        <sys_update_version display_value="sys_ui_formatter_6676ea0d93833110d0ac703efaba10bc">41c0aa5593077110d0ac703efaba1072</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 06:52:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

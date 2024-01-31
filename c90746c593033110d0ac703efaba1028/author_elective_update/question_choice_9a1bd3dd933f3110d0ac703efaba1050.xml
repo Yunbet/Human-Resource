@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>500</order>
+        <published_ref/>
+        <question display_value="Type">5a8a5b11937f3110d0ac703efaba1087</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-17 07:21:47</sys_created_on>
+        <sys_id>9a1bd3dd933f3110d0ac703efaba1050</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>HR</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name>question_choice_9a1bd3dd933f3110d0ac703efaba1050</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-17 07:25:07</sys_updated_on>
+        <text>HR</text>
+        <value>hr</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=9a1bd3dd933f3110d0ac703efaba1050"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">c90746c593033110d0ac703efaba1028</application>
+        <file_path/>
+        <instance_id>8866749c1b797d90c84543f4bd4bcbdc</instance_id>
+        <instance_name>dev182063</instance_name>
+        <name>question_choice_9a1bd3dd933f3110d0ac703efaba1050</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>500</order><published_ref/><question display_value="Type">5a8a5b11937f3110d0ac703efaba1087</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-17 07:21:47</sys_created_on><sys_id>9a1bd3dd933f3110d0ac703efaba1050</sys_id><sys_mod_count>3</sys_mod_count><sys_name>HR</sys_name><sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package><sys_policy/><sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope><sys_update_name>question_choice_9a1bd3dd933f3110d0ac703efaba1050</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-17 07:25:07</sys_updated_on><text>HR</text><value>hr</value></question_choice><fx_price action="delete_multiple" query="id=9a1bd3dd933f3110d0ac703efaba1050"/></record_update>]]></payload>
+        <payload_hash>2063964405</payload_hash>
+        <record_name>HR</record_name>
+        <reverted_from/>
+        <source>0287c24993033110d0ac703efaba1051</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-17 07:25:08</sys_created_on>
+        <sys_id>21ebd391937f3110d0ac703efaba104e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d164f3c460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-17 07:25:08</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>29ebd391f27f3110b19bef56b671d94d</update_guid>
+        <update_guid_history>29ebd391f27f3110b19bef56b671d94d:2063964405,de7bdb51627f3110f06359b92b9c7e14:588354085,cd4b57518a7f3110f1a46f6ec95fbe14:-643777210,9c2b1751f57f31104b5fda32421b64a1:1186927496</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HR">dce7239193bf3110d0ac703efaba10d1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-17 08:17:29</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>14dfa52b41d249ee83bbf3a91f53d7a9</sys_id>
+        <sys_metadata>9a1bd3dd933f3110d0ac703efaba1050</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_parent display_value="Type">5a8a5b11937f3110d0ac703efaba1087</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_scope_delete display_value="">4f4f1a97f8834ca8bfb74c0066966840</sys_scope_delete>
+        <sys_update_name>question_choice_9a1bd3dd933f3110d0ac703efaba1050</sys_update_name>
+        <sys_update_version display_value="question_choice_9a1bd3dd933f3110d0ac703efaba1050">21ebd391937f3110d0ac703efaba104e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-17 08:17:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

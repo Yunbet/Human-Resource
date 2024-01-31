@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a2b0570d93473110d0ac703efaba10de" sys_domain="global" table="x_994488_hr_hr_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-10 05:10:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2b0570d93473110d0ac703efaba10df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_994488_hr_hr_task" name="x_994488_hr_hr_task" sys_domain="global" view="Default view">a2b0570d93473110d0ac703efaba10de</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_994488_hr_hr_task" sys_domain="global" view="Default view">ff105f8993473110d0ac703efaba1010</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-10 05:10:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-10 05:10:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eeb0974d93473110d0ac703efaba10ed</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_994488_hr_hr_task" name="x_994488_hr_hr_task" sys_domain="global" view="Default view">a2b0570d93473110d0ac703efaba10de</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_994488_hr_hr_task" sys_domain="global" view="Default view">eab0570d93473110d0ac703efaba10df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-10 05:17:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-10 05:12:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1111f0d93473110d0ac703efaba10ea</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_994488_hr_hr_task" name="x_994488_hr_hr_task" sys_domain="global" view="Default view">a2b0570d93473110d0ac703efaba10de</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_994488_hr_hr_task" sys_domain="global" view="Default view">a5111f0d93473110d0ac703efaba10e8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-10 05:17:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_994488_hr_hr_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-10 05:10:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2b0570d93473110d0ac703efaba10de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_994488_hr_hr_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a2b0570d93473110d0ac703efaba10de</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-10 05:10:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

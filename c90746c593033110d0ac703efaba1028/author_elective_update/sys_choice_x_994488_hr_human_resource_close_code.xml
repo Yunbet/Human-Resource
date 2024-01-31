@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="close_code" table="x_994488_hr_human_resource" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>close_code</element>
+            <name>x_994488_hr_human_resource</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-10 02:19:56</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>close_code</sys_name>
+            <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+            <sys_update_name>sys_choice_x_994488_hr_human_resource_close_code</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-10 02:19:56</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Duplicate Ticket</label>
+            <language>en</language>
+            <name>x_994488_hr_human_resource</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-10 02:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-10 02:24:20</sys_updated_on>
+            <value>duplicate_ticket</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Information Not Available</label>
+            <language>en</language>
+            <name>x_994488_hr_human_resource</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-10 02:20:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-10 02:24:26</sys_updated_on>
+            <value>information_not_available</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No Action Required</label>
+            <language>en</language>
+            <name>x_994488_hr_human_resource</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-10 02:20:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-10 02:24:32</sys_updated_on>
+            <value>no_action_required</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Out of Scope</label>
+            <language>en</language>
+            <name>x_994488_hr_human_resource</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-10 02:21:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-10 02:24:36</sys_updated_on>
+            <value>out_of_scope</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Policy Clarification Provided</label>
+            <language>en</language>
+            <name>x_994488_hr_human_resource</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-10 02:21:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-10 02:24:41</sys_updated_on>
+            <value>policy_clarification_provided</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resolved by Employee</label>
+            <language>en</language>
+            <name>x_994488_hr_human_resource</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-10 02:22:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-10 02:24:47</sys_updated_on>
+            <value>resolved_by_employee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resolved Successfully</label>
+            <language>en</language>
+            <name>x_994488_hr_human_resource</name>
+            <sequence>700</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-10 02:22:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-10 02:24:50</sys_updated_on>
+            <value>resolved_successfully</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_994488_hr_human_resource</name>
+            <sequence>800</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-10 02:23:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-10 02:24:57</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

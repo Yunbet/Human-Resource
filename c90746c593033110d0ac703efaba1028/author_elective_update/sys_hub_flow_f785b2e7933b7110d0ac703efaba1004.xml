@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4581000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>employee_separation</internal_name>
+        <label_cache>[{"name":"c0dffb1a-1d1c-48c2-a859-0f4f2dffc139.Record","label":"2 - Create Task➛HR Task Record","reference":"x_994488_hr_hr_task","reference_display":"HR Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.requested_by","label":"1 - Get Catalog Variables➛requested_by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.employee_leaving.name","label":"1 - Get Catalog Variables➛employee_leaving➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.requested_by.name","label":"1 - Get Catalog Variables➛requested_by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"4d887fd9-6dc3-4431-bcfa-eda23220cb44.record","label":"3 - Create Record➛Human Resource Record","reference":"x_994488_hr_human_resource","reference_display":"Human Resource","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Human Resource Record","reference":"x_994488_hr_human_resource","reference_display":"Human Resource","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master_snapshot>0a72c3eb937b7110d0ac703efaba1083</master_snapshot>
+        <name>Employee Separation </name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>1a7207eb937b7110d0ac703efaba1023</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 04:23:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f785b2e7933b7110d0ac703efaba1004</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Employee Separation </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name>sys_hub_flow_f785b2e7933b7110d0ac703efaba1004</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:22</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=f785b2e7933b7110d0ac703efaba1004"/>
+    <sys_variable_value action="DELETE" query="document_key=f785b2e7933b7110d0ac703efaba1004"/>
+    <sys_flow_catalog_trigger action="DELETE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in/>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a7207eb937b7110d0ac703efaba1023</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:22</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="DELETE" query="identifier=f785b2e7933b7110d0ac703efaba1004"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=f785b2e7933b7110d0ac703efaba1004^sys_idNOT INc6328fab937b7110d0ac703efaba105c"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Employee Separation ">f785b2e7933b7110d0ac703efaba1004</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>c6328fab937b7110d0ac703efaba105c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:22</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=c6328fab937b7110d0ac703efaba105c"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=f785b2e7933b7110d0ac703efaba1004"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=f785b2e7933b7110d0ac703efaba1004^sys_idNOT INf785b2e7933b7110d0ac703efaba1007"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>f785b2e7933b7110d0ac703efaba1004</id>
+        <name>Employee Separation </name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 04:23:58</sys_created_on>
+        <sys_id>f785b2e7933b7110d0ac703efaba1007</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 04:23:58</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=f785b2e7933b7110d0ac703efaba1007"/>
+    <sys_hub_flow_input action="DELETE" query="model=f785b2e7933b7110d0ac703efaba1004^sys_idNOT IN8a328fab937b7110d0ac703efaba1055,ca328fab937b7110d0ac703efaba104e"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Employee Separation ">f785b2e7933b7110d0ac703efaba1004</model>
+        <model_id>f785b2e7933b7110d0ac703efaba1004</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f785b2e7933b7110d0ac703efaba1004</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>8a328fab937b7110d0ac703efaba1055</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=8a328fab937b7110d0ac703efaba1055"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Employee Separation ">f785b2e7933b7110d0ac703efaba1004</model>
+        <model_id>f785b2e7933b7110d0ac703efaba1004</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f785b2e7933b7110d0ac703efaba1004</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>ca328fab937b7110d0ac703efaba104e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=ca328fab937b7110d0ac703efaba104e"/>
+    <sys_hub_flow_output action="DELETE" query="model=f785b2e7933b7110d0ac703efaba1004"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=f785b2e7933b7110d0ac703efaba1004"/>
+    <sys_hub_action_instance action="DELETE" query="flow=f785b2e7933b7110d0ac703efaba1004^sys_idNOT IN1a328fab937b7110d0ac703efaba1077,42328fab937b7110d0ac703efaba1062,92328fab937b7110d0ac703efaba1070,9a328fab937b7110d0ac703efaba1069"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Employee Separation ">f785b2e7933b7110d0ac703efaba1004</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>1a328fab937b7110d0ac703efaba1077</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:22</sys_updated_on>
+        <ui_id>f18a5442-c87b-4d54-b2b9-969b2e5bc0c6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=1a328fab937b7110d0ac703efaba1077"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1a328fab937b7110d0ac703efaba1077</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>12328fab937b7110d0ac703efaba107a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <value>x_994488_hr_hr_task</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1a328fab937b7110d0ac703efaba1077</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>5e328fab937b7110d0ac703efaba1079</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=1a328fab937b7110d0ac703efaba1077"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>1a328fab937b7110d0ac703efaba1077</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>1a328fab937b7110d0ac703efaba1079</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>1a328fab937b7110d0ac703efaba1077</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>56328fab937b7110d0ac703efaba1079</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{c0dffb1a-1d1c-48c2-a859-0f4f2dffc139.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>1a328fab937b7110d0ac703efaba1077</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>da328fab937b7110d0ac703efaba1079</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=1a328fab937b7110d0ac703efaba1077"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=1a328fab937b7110d0ac703efaba1077"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Employee Separation ">f785b2e7933b7110d0ac703efaba1004</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>42328fab937b7110d0ac703efaba1062</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:22</sys_updated_on>
+        <ui_id>d9f363d5-abb6-49b0-a3e5-e9fb68cd881e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=42328fab937b7110d0ac703efaba1062"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>42328fab937b7110d0ac703efaba1062</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>12328fab937b7110d0ac703efaba1065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <value>86c019ae937bb110d0ac703efaba1022:item_option_new,52d1112293bbb110d0ac703efaba10f3:item_option_new,5872952293bbb110d0ac703efaba1061:item_option_new,0ba29dee937bb110d0ac703efaba1075:item_option_new,30635d6293bbb110d0ac703efaba10aa:item_option_new,90b3992293bbb110d0ac703efaba109d:item_option_new,985459a293bbb110d0ac703efaba10b9:item_option_new,d52559a293bbb110d0ac703efaba10d8:item_option_new,d56511a293bbb110d0ac703efaba106b:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>42328fab937b7110d0ac703efaba1062</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>1a328fab937b7110d0ac703efaba1065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <value>b0cf0962937bb110d0ac703efaba1006</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=42328fab937b7110d0ac703efaba1062"/>
+    <sys_element_mapping action="DELETE">
+        <field>catalog_variables</field>
+        <id>42328fab937b7110d0ac703efaba1062</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>c2328fab937b7110d0ac703efaba1064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>requested_item</field>
+        <id>42328fab937b7110d0ac703efaba1062</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>9e328fab937b7110d0ac703efaba1064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>template_catalog_item</field>
+        <id>42328fab937b7110d0ac703efaba1062</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>da328fab937b7110d0ac703efaba1064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=42328fab937b7110d0ac703efaba1062"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=42328fab937b7110d0ac703efaba1062"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Employee Separation ">f785b2e7933b7110d0ac703efaba1004</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>92328fab937b7110d0ac703efaba1070</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:22</sys_updated_on>
+        <ui_id>c0dffb1a-1d1c-48c2-a859-0f4f2dffc139</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=92328fab937b7110d0ac703efaba1070"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>92328fab937b7110d0ac703efaba1070</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>9e328fab937b7110d0ac703efaba1071</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:12</sys_updated_on>
+        <value>x_994488_hr_hr_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=92328fab937b7110d0ac703efaba1070"/>
+    <sys_element_mapping action="DELETE">
+        <field>field_values</field>
+        <id>92328fab937b7110d0ac703efaba1070</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>1e328fab937b7110d0ac703efaba1071</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>short_description=Resignatin or Termination Notice for :{{d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.employee_leaving.name}}^description=Recieve and document the employee's resignation or termination notice^requested_for={{d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.requested_by}}^assignment_group={"display":"General HR","value":"26fffc8493373110d0ac703efaba1093","sys_id":"26fffc8493373110d0ac703efaba1093"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>task_table</field>
+        <id>92328fab937b7110d0ac703efaba1070</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>5a328fab937b7110d0ac703efaba1071</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=92328fab937b7110d0ac703efaba1070"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=92328fab937b7110d0ac703efaba1070"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Employee Separation ">f785b2e7933b7110d0ac703efaba1004</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>9a328fab937b7110d0ac703efaba1069</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:22</sys_updated_on>
+        <ui_id>4d887fd9-6dc3-4431-bcfa-eda23220cb44</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=9a328fab937b7110d0ac703efaba1069"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9a328fab937b7110d0ac703efaba1069</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>16328fab937b7110d0ac703efaba106b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <value>x_994488_hr_human_resource</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=9a328fab937b7110d0ac703efaba1069"/>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>9a328fab937b7110d0ac703efaba1069</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>de328fab937b7110d0ac703efaba106a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>9a328fab937b7110d0ac703efaba1069</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>92328fab937b7110d0ac703efaba106b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>source={{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=9a328fab937b7110d0ac703efaba1069"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=9a328fab937b7110d0ac703efaba1069"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=f785b2e7933b7110d0ac703efaba1004"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=f785b2e7933b7110d0ac703efaba1004"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=f785b2e7933b7110d0ac703efaba1004"/>
+    <sys_hub_flow_variable action="DELETE" query="model=f785b2e7933b7110d0ac703efaba1004"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_f785b2e7933b7110d0ac703efaba1004^sys_idNOT IN46328fab937b7110d0ac703efaba1054,8e328fab937b7110d0ac703efaba1059"/>
+    <sys_documentation action="DELETE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f785b2e7933b7110d0ac703efaba1004</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>46328fab937b7110d0ac703efaba1054</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f785b2e7933b7110d0ac703efaba1004</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:19:17</sys_created_on>
+        <sys_id>8e328fab937b7110d0ac703efaba1059</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:19:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_f785b2e7933b7110d0ac703efaba1004"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_f785b2e7933b7110d0ac703efaba1004"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_f785b2e7933b7110d0ac703efaba1004"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>employee_separation</internal_name>
+        <label_cache>[{"name":"c0dffb1a-1d1c-48c2-a859-0f4f2dffc139.Record","label":"2 - Create Task➛HR Task Record","reference":"x_994488_hr_hr_task","reference_display":"HR Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.requested_by","label":"1 - Get Catalog Variables➛requested_by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.employee_leaving.name","label":"1 - Get Catalog Variables➛employee_leaving➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.requested_by.name","label":"1 - Get Catalog Variables➛requested_by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"4d887fd9-6dc3-4431-bcfa-eda23220cb44.record","label":"3 - Create Record➛Human Resource Record","reference":"x_994488_hr_human_resource","reference_display":"Human Resource","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Human Resource Record","reference":"x_994488_hr_human_resource","reference_display":"Human Resource","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Employee Separation </name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Employee Separation ">f785b2e7933b7110d0ac703efaba1004</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a72c3eb937b7110d0ac703efaba1083</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=0a72c3eb937b7110d0ac703efaba1083"/>
+    <sys_variable_value action="DELETE" query="document_key=0a72c3eb937b7110d0ac703efaba1083"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=0a72c3eb937b7110d0ac703efaba1083^sys_idNOT IN4672c3eb937b7110d0ac703efaba10e9"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Employee Separation ">0a72c3eb937b7110d0ac703efaba1083</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:23</sys_created_on>
+        <sys_id>4672c3eb937b7110d0ac703efaba10e9</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:22</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=4672c3eb937b7110d0ac703efaba10e9"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=0a72c3eb937b7110d0ac703efaba1083"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=0a72c3eb937b7110d0ac703efaba1083^sys_idNOT IN8a72c3eb937b7110d0ac703efaba1084"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>0a72c3eb937b7110d0ac703efaba1083</id>
+        <name>Employee Separation </name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>8a72c3eb937b7110d0ac703efaba1084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:22</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=8a72c3eb937b7110d0ac703efaba1084"/>
+    <sys_hub_flow_input action="DELETE" query="model=0a72c3eb937b7110d0ac703efaba1083^sys_idNOT IN8672c3eb937b7110d0ac703efaba10b2,8e72c3eb937b7110d0ac703efaba1085"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Employee Separation ">0a72c3eb937b7110d0ac703efaba1083</model>
+        <model_id>0a72c3eb937b7110d0ac703efaba1083</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_0a72c3eb937b7110d0ac703efaba1083</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>8672c3eb937b7110d0ac703efaba10b2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=8672c3eb937b7110d0ac703efaba10b2"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Employee Separation ">0a72c3eb937b7110d0ac703efaba1083</model>
+        <model_id>0a72c3eb937b7110d0ac703efaba1083</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_0a72c3eb937b7110d0ac703efaba1083</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>8e72c3eb937b7110d0ac703efaba1085</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=8e72c3eb937b7110d0ac703efaba1085"/>
+    <sys_hub_flow_output action="DELETE" query="model=0a72c3eb937b7110d0ac703efaba1083"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=0a72c3eb937b7110d0ac703efaba1083"/>
+    <sys_hub_action_instance action="DELETE" query="flow=0a72c3eb937b7110d0ac703efaba1083^sys_idNOT IN4e72c3eb937b7110d0ac703efaba10c9,c672c3eb937b7110d0ac703efaba10c2,ca72c3eb937b7110d0ac703efaba10d1,ce72c3eb937b7110d0ac703efaba10e6"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Employee Separation ">0a72c3eb937b7110d0ac703efaba1083</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>4e72c3eb937b7110d0ac703efaba10c9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:21</sys_updated_on>
+        <ui_id>4d887fd9-6dc3-4431-bcfa-eda23220cb44</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=4e72c3eb937b7110d0ac703efaba10c9"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4e72c3eb937b7110d0ac703efaba10c9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>4272c3eb937b7110d0ac703efaba10cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:22</sys_updated_on>
+        <value>x_994488_hr_human_resource</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=4e72c3eb937b7110d0ac703efaba10c9"/>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>4e72c3eb937b7110d0ac703efaba10c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>0e72c3eb937b7110d0ac703efaba10ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>4e72c3eb937b7110d0ac703efaba10c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>ce72c3eb937b7110d0ac703efaba10ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>source={{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=4e72c3eb937b7110d0ac703efaba10c9"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=4e72c3eb937b7110d0ac703efaba10c9"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Employee Separation ">0a72c3eb937b7110d0ac703efaba1083</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>c672c3eb937b7110d0ac703efaba10c2</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:21</sys_updated_on>
+        <ui_id>d9f363d5-abb6-49b0-a3e5-e9fb68cd881e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=c672c3eb937b7110d0ac703efaba10c2"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c672c3eb937b7110d0ac703efaba10c2</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>0272c3eb937b7110d0ac703efaba10c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:22</sys_updated_on>
+        <value>86c019ae937bb110d0ac703efaba1022:item_option_new,52d1112293bbb110d0ac703efaba10f3:item_option_new,5872952293bbb110d0ac703efaba1061:item_option_new,0ba29dee937bb110d0ac703efaba1075:item_option_new,30635d6293bbb110d0ac703efaba10aa:item_option_new,90b3992293bbb110d0ac703efaba109d:item_option_new,985459a293bbb110d0ac703efaba10b9:item_option_new,d52559a293bbb110d0ac703efaba10d8:item_option_new,d56511a293bbb110d0ac703efaba106b:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c672c3eb937b7110d0ac703efaba10c2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>c272c3eb937b7110d0ac703efaba10c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:22</sys_updated_on>
+        <value>b0cf0962937bb110d0ac703efaba1006</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=c672c3eb937b7110d0ac703efaba10c2"/>
+    <sys_element_mapping action="DELETE">
+        <field>catalog_variables</field>
+        <id>c672c3eb937b7110d0ac703efaba10c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>0a72c3eb937b7110d0ac703efaba10c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>requested_item</field>
+        <id>c672c3eb937b7110d0ac703efaba10c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>8e72c3eb937b7110d0ac703efaba10c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>template_catalog_item</field>
+        <id>c672c3eb937b7110d0ac703efaba10c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>ca72c3eb937b7110d0ac703efaba10c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=c672c3eb937b7110d0ac703efaba10c2"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=c672c3eb937b7110d0ac703efaba10c2"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Employee Separation ">0a72c3eb937b7110d0ac703efaba1083</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:23</sys_created_on>
+        <sys_id>ca72c3eb937b7110d0ac703efaba10d1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:21</sys_updated_on>
+        <ui_id>c0dffb1a-1d1c-48c2-a859-0f4f2dffc139</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=ca72c3eb937b7110d0ac703efaba10d1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca72c3eb937b7110d0ac703efaba10d1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:23</sys_created_on>
+        <sys_id>4272c3eb937b7110d0ac703efaba10d3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:21</sys_updated_on>
+        <value>x_994488_hr_hr_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=ca72c3eb937b7110d0ac703efaba10d1"/>
+    <sys_element_mapping action="DELETE">
+        <field>field_values</field>
+        <id>ca72c3eb937b7110d0ac703efaba10d1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:23</sys_created_on>
+        <sys_id>ce72c3eb937b7110d0ac703efaba10d2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>short_description=Resignatin or Termination Notice for :{{d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.employee_leaving.name}}^description=Recieve and document the employee's resignation or termination notice^requested_for={{d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.requested_by}}^assignment_group={"display":"General HR","value":"26fffc8493373110d0ac703efaba1093","sys_id":"26fffc8493373110d0ac703efaba1093"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>task_table</field>
+        <id>ca72c3eb937b7110d0ac703efaba10d1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:23</sys_created_on>
+        <sys_id>0e72c3eb937b7110d0ac703efaba10d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=ca72c3eb937b7110d0ac703efaba10d1"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=ca72c3eb937b7110d0ac703efaba10d1"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Employee Separation ">0a72c3eb937b7110d0ac703efaba1083</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:23</sys_created_on>
+        <sys_id>ce72c3eb937b7110d0ac703efaba10e6</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:21</sys_updated_on>
+        <ui_id>f18a5442-c87b-4d54-b2b9-969b2e5bc0c6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=ce72c3eb937b7110d0ac703efaba10e6"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ce72c3eb937b7110d0ac703efaba10e6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:23</sys_created_on>
+        <sys_id>4272c3eb937b7110d0ac703efaba10e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:23</sys_updated_on>
+        <value>x_994488_hr_hr_task</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ce72c3eb937b7110d0ac703efaba10e6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:23</sys_created_on>
+        <sys_id>8e72c3eb937b7110d0ac703efaba10e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:23</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=ce72c3eb937b7110d0ac703efaba10e6"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>ce72c3eb937b7110d0ac703efaba10e6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:23</sys_created_on>
+        <sys_id>4a72c3eb937b7110d0ac703efaba10e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>ce72c3eb937b7110d0ac703efaba10e6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:23</sys_created_on>
+        <sys_id>8672c3eb937b7110d0ac703efaba10e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{c0dffb1a-1d1c-48c2-a859-0f4f2dffc139.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>ce72c3eb937b7110d0ac703efaba10e6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:23</sys_created_on>
+        <sys_id>0e72c3eb937b7110d0ac703efaba10e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=ce72c3eb937b7110d0ac703efaba10e6"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=ce72c3eb937b7110d0ac703efaba10e6"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=0a72c3eb937b7110d0ac703efaba1083"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=0a72c3eb937b7110d0ac703efaba1083"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=0a72c3eb937b7110d0ac703efaba1083"/>
+    <sys_hub_flow_variable action="DELETE" query="model=0a72c3eb937b7110d0ac703efaba1083"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_0a72c3eb937b7110d0ac703efaba1083^sys_idNOT IN4e72c3eb937b7110d0ac703efaba10ae,8a72c3eb937b7110d0ac703efaba10b6"/>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0a72c3eb937b7110d0ac703efaba1083</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>4e72c3eb937b7110d0ac703efaba10ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0a72c3eb937b7110d0ac703efaba1083</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:22</sys_created_on>
+        <sys_id>8a72c3eb937b7110d0ac703efaba10b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_0a72c3eb937b7110d0ac703efaba1083"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_0a72c3eb937b7110d0ac703efaba1083"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_0a72c3eb937b7110d0ac703efaba1083"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>f785b2e7933b7110d0ac703efaba1004</sys_id>
+        <latest_snapshot>0a72c3eb937b7110d0ac703efaba1083</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=f785b2e7933b7110d0ac703efaba1004^sys_idNOT IN127207eb937b7110d0ac703efaba1024"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>f785b2e7933b7110d0ac703efaba1004</plan_id>
+        <snapshot>0a72c3eb937b7110d0ac703efaba1083</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:20:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>127207eb937b7110d0ac703efaba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:20:24</sys_updated_on>
+        <trigger display_value="">1a7207eb937b7110d0ac703efaba1023</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=f785b2e7933b7110d0ac703efaba1004"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">c90746c593033110d0ac703efaba1028</application>
+        <file_path/>
+        <instance_id>8866749c1b797d90c84543f4bd4bcbdc</instance_id>
+        <instance_name>dev182063</instance_name>
+        <name>sys_hub_flow_f785b2e7933b7110d0ac703efaba1004</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4581000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;employee_separation&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"c0dffb1a-1d1c-48c2-a859-0f4f2dffc139.Record","label":"2 - Create Task➛HR Task Record","reference":"x_994488_hr_hr_task","reference_display":"HR Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.requested_by","label":"1 - Get Catalog Variables➛requested_by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.employee_leaving.name","label":"1 - Get Catalog Variables➛employee_leaving➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.requested_by.name","label":"1 - Get Catalog Variables➛requested_by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"4d887fd9-6dc3-4431-bcfa-eda23220cb44.record","label":"3 - Create Record➛Human Resource Record","reference":"x_994488_hr_human_resource","reference_display":"Human Resource","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Human Resource Record","reference":"x_994488_hr_human_resource","reference_display":"Human Resource","type":"reference","base_type":"reference","attributes":{}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;0a72c3eb937b7110d0ac703efaba1083&lt;/master_snapshot&gt;&lt;name&gt;Employee Separation &lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;1a7207eb937b7110d0ac703efaba1023&lt;/remote_trigger_id&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 04:23:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f785b2e7933b7110d0ac703efaba1004&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Employee Separation &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Human Resource" source="x_994488_hr"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_f785b2e7933b7110d0ac703efaba1004&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:22&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f785b2e7933b7110d0ac703efaba1004"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=f785b2e7933b7110d0ac703efaba1004"/&gt;&lt;sys_flow_catalog_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;catalog_item/&gt;&lt;name/&gt;&lt;run_flow_in/&gt;&lt;sys_class_name&gt;sys_flow_catalog_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1a7207eb937b7110d0ac703efaba1023&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:22&lt;/sys_updated_on&gt;&lt;/sys_flow_catalog_trigger&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=f785b2e7933b7110d0ac703efaba1004"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=f785b2e7933b7110d0ac703efaba1004^sys_idNOT INc6328fab937b7110d0ac703efaba105c"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Employee Separation "&gt;f785b2e7933b7110d0ac703efaba1004&lt;/flow&gt;&lt;name&gt;Service Catalog&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;c6328fab937b7110d0ac703efaba105c&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:22&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Service Catalog"&gt;c43a1011c36813002841b63b12d3ae15&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;service_catalog&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=c6328fab937b7110d0ac703efaba105c"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=f785b2e7933b7110d0ac703efaba1004"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=f785b2e7933b7110d0ac703efaba1004^sys_idNOT INf785b2e7933b7110d0ac703efaba1007"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;f785b2e7933b7110d0ac703efaba1004&lt;/id&gt;&lt;name&gt;Employee Separation &lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 04:23:58&lt;/sys_created_on&gt;&lt;sys_id&gt;f785b2e7933b7110d0ac703efaba1007&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 04:23:58&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f785b2e7933b7110d0ac703efaba1007"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=f785b2e7933b7110d0ac703efaba1004^sys_idNOT IN8a328fab937b7110d0ac703efaba1055,ca328fab937b7110d0ac703efaba104e"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;sc_req_item&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Employee Separation "&gt;f785b2e7933b7110d0ac703efaba1004&lt;/model&gt;&lt;model_id&gt;f785b2e7933b7110d0ac703efaba1004&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_f785b2e7933b7110d0ac703efaba1004&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;true&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;8a328fab937b7110d0ac703efaba1055&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:22&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8a328fab937b7110d0ac703efaba1055"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Employee Separation "&gt;f785b2e7933b7110d0ac703efaba1004&lt;/model&gt;&lt;model_id&gt;f785b2e7933b7110d0ac703efaba1004&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_f785b2e7933b7110d0ac703efaba1004&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sc_req_item"&gt;sc_req_item&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;ca328fab937b7110d0ac703efaba104e&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:22&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ca328fab937b7110d0ac703efaba104e"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=f785b2e7933b7110d0ac703efaba1004"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=f785b2e7933b7110d0ac703efaba1004"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=f785b2e7933b7110d0ac703efaba1004^sys_idNOT IN1a328fab937b7110d0ac703efaba1077,42328fab937b7110d0ac703efaba1062,92328fab937b7110d0ac703efaba1070,9a328fab937b7110d0ac703efaba1069"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Wait For Condition"&gt;89ce8a4187120010663ca1bb36cb0be3&lt;/action_type&gt;&lt;action_type_parent display_value="Wait For Condition"&gt;8bb9a8160b10030085c083eb37673aec&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Employee Separation "&gt;f785b2e7933b7110d0ac703efaba1004&lt;/flow&gt;&lt;order&gt;4&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;1a328fab937b7110d0ac703efaba1077&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:22&lt;/sys_updated_on&gt;&lt;ui_id&gt;f18a5442-c87b-4d54-b2b9-969b2e5bc0c6&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=1a328fab937b7110d0ac703efaba1077"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;1a328fab937b7110d0ac703efaba1077&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;12328fab937b7110d0ac703efaba107a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;value&gt;x_994488_hr_hr_task&lt;/value&gt;&lt;variable display_value="Table"&gt;45ce8a4187120010663ca1bb36cb0bea&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;1a328fab937b7110d0ac703efaba1077&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;5e328fab937b7110d0ac703efaba1079&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;value&gt;state=3&lt;/value&gt;&lt;variable display_value="Conditions"&gt;49ce8a4187120010663ca1bb36cb0bef&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=1a328fab937b7110d0ac703efaba1077"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;1a328fab937b7110d0ac703efaba1077&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;1a328fab937b7110d0ac703efaba1079&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;1a328fab937b7110d0ac703efaba1077&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;56328fab937b7110d0ac703efaba1079&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3&lt;/table&gt;&lt;value&gt;{{c0dffb1a-1d1c-48c2-a859-0f4f2dffc139.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;1a328fab937b7110d0ac703efaba1077&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;da328fab937b7110d0ac703efaba1079&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=1a328fab937b7110d0ac703efaba1077"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=1a328fab937b7110d0ac703efaba1077"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Get Catalog Variables"&gt;330ba3abc31013002841b63b12d3aee8&lt;/action_type&gt;&lt;action_type_parent display_value="Get Catalog Variables"&gt;22f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Employee Separation "&gt;f785b2e7933b7110d0ac703efaba1004&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;42328fab937b7110d0ac703efaba1062&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:22&lt;/sys_updated_on&gt;&lt;ui_id&gt;d9f363d5-abb6-49b0-a3e5-e9fb68cd881e&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=42328fab937b7110d0ac703efaba1062"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;42328fab937b7110d0ac703efaba1062&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;12328fab937b7110d0ac703efaba1065&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;value&gt;86c019ae937bb110d0ac703efaba1022:item_option_new,52d1112293bbb110d0ac703efaba10f3:item_option_new,5872952293bbb110d0ac703efaba1061:item_option_new,0ba29dee937bb110d0ac703efaba1075:item_option_new,30635d6293bbb110d0ac703efaba10aa:item_option_new,90b3992293bbb110d0ac703efaba109d:item_option_new,985459a293bbb110d0ac703efaba10b9:item_option_new,d52559a293bbb110d0ac703efaba10d8:item_option_new,d56511a293bbb110d0ac703efaba106b:item_option_new&lt;/value&gt;&lt;variable display_value="Catalog Variables"&gt;7b0ba3abc31013002841b63b12d3aef7&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;42328fab937b7110d0ac703efaba1062&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;1a328fab937b7110d0ac703efaba1065&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;value&gt;b0cf0962937bb110d0ac703efaba1006&lt;/value&gt;&lt;variable display_value="Template Catalog Items and Variable Sets"&gt;bb0ba3abc31013002841b63b12d3aef1&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=42328fab937b7110d0ac703efaba1062"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;catalog_variables&lt;/field&gt;&lt;id&gt;42328fab937b7110d0ac703efaba1062&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;c2328fab937b7110d0ac703efaba1064&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;requested_item&lt;/field&gt;&lt;id&gt;42328fab937b7110d0ac703efaba1062&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;9e328fab937b7110d0ac703efaba1064&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8&lt;/table&gt;&lt;value&gt;{{Service Catalog_1.request_item}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;template_catalog_item&lt;/field&gt;&lt;id&gt;42328fab937b7110d0ac703efaba1062&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;da328fab937b7110d0ac703efaba1064&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=42328fab937b7110d0ac703efaba1062"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=42328fab937b7110d0ac703efaba1062"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Task"&gt;2b3a6335531003003bf1d9109ec58759&lt;/action_type&gt;&lt;action_type_parent display_value="Create Task"&gt;3f9b1ff1531003003bf1d9109ec58775&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Employee Separation "&gt;f785b2e7933b7110d0ac703efaba1004&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;92328fab937b7110d0ac703efaba1070&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:22&lt;/sys_updated_on&gt;&lt;ui_id&gt;c0dffb1a-1d1c-48c2-a859-0f4f2dffc139&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=92328fab937b7110d0ac703efaba1070"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;92328fab937b7110d0ac703efaba1070&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;9e328fab937b7110d0ac703efaba1071&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:12&lt;/sys_updated_on&gt;&lt;value&gt;x_994488_hr_hr_task&lt;/value&gt;&lt;variable display_value="Table"&gt;e73a6335531003003bf1d9109ec5875c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=92328fab937b7110d0ac703efaba1070"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;field_values&lt;/field&gt;&lt;id&gt;92328fab937b7110d0ac703efaba1070&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;1e328fab937b7110d0ac703efaba1071&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:12&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759&lt;/table&gt;&lt;value&gt;short_description=Resignatin or Termination Notice for :{{d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.employee_leaving.name}}^description=Recieve and document the employee's resignation or termination notice^requested_for={{d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.requested_by}}^assignment_group={"display":"General HR","value":"26fffc8493373110d0ac703efaba1093","sys_id":"26fffc8493373110d0ac703efaba1093"}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;task_table&lt;/field&gt;&lt;id&gt;92328fab937b7110d0ac703efaba1070&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;5a328fab937b7110d0ac703efaba1071&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=92328fab937b7110d0ac703efaba1070"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=92328fab937b7110d0ac703efaba1070"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;&lt;action_type_parent display_value="Create Record"&gt;02f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Employee Separation "&gt;f785b2e7933b7110d0ac703efaba1004&lt;/flow&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;9a328fab937b7110d0ac703efaba1069&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:22&lt;/sys_updated_on&gt;&lt;ui_id&gt;4d887fd9-6dc3-4431-bcfa-eda23220cb44&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=9a328fab937b7110d0ac703efaba1069"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9a328fab937b7110d0ac703efaba1069&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;16328fab937b7110d0ac703efaba106b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;value&gt;x_994488_hr_human_resource&lt;/value&gt;&lt;variable display_value="Table"&gt;61e05916c31332002841b63b12d3aee4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=9a328fab937b7110d0ac703efaba1069"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;9a328fab937b7110d0ac703efaba1069&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;de328fab937b7110d0ac703efaba106a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;9a328fab937b7110d0ac703efaba1069&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;92328fab937b7110d0ac703efaba106b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1&lt;/table&gt;&lt;value&gt;source={{Service Catalog_1.request_item}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=9a328fab937b7110d0ac703efaba1069"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=9a328fab937b7110d0ac703efaba1069"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=f785b2e7933b7110d0ac703efaba1004"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=f785b2e7933b7110d0ac703efaba1004"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=f785b2e7933b7110d0ac703efaba1004"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=f785b2e7933b7110d0ac703efaba1004"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f785b2e7933b7110d0ac703efaba1004^sys_idNOT IN46328fab937b7110d0ac703efaba1054,8e328fab937b7110d0ac703efaba1059"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_f785b2e7933b7110d0ac703efaba1004&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;46328fab937b7110d0ac703efaba1054&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Human Resource" source="x_994488_hr"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_f785b2e7933b7110d0ac703efaba1004&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:19:17&lt;/sys_created_on&gt;&lt;sys_id&gt;8e328fab937b7110d0ac703efaba1059&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Human Resource" source="x_994488_hr"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:19:17&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f785b2e7933b7110d0ac703efaba1004"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f785b2e7933b7110d0ac703efaba1004"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f785b2e7933b7110d0ac703efaba1004"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;employee_separation&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"c0dffb1a-1d1c-48c2-a859-0f4f2dffc139.Record","label":"2 - Create Task➛HR Task Record","reference":"x_994488_hr_hr_task","reference_display":"HR Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.requested_by","label":"1 - Get Catalog Variables➛requested_by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.employee_leaving.name","label":"1 - Get Catalog Variables➛employee_leaving➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.requested_by.name","label":"1 - Get Catalog Variables➛requested_by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"4d887fd9-6dc3-4431-bcfa-eda23220cb44.record","label":"3 - Create Record➛Human Resource Record","reference":"x_994488_hr_human_resource","reference_display":"Human Resource","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Human Resource Record","reference":"x_994488_hr_human_resource","reference_display":"Human Resource","type":"reference","base_type":"reference","attributes":{}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Employee Separation &lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Employee Separation "&gt;f785b2e7933b7110d0ac703efaba1004&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0a72c3eb937b7110d0ac703efaba1083&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:21&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0a72c3eb937b7110d0ac703efaba1083"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=0a72c3eb937b7110d0ac703efaba1083"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=0a72c3eb937b7110d0ac703efaba1083^sys_idNOT IN4672c3eb937b7110d0ac703efaba10e9"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Employee Separation "&gt;0a72c3eb937b7110d0ac703efaba1083&lt;/flow&gt;&lt;name&gt;Service Catalog&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:23&lt;/sys_created_on&gt;&lt;sys_id&gt;4672c3eb937b7110d0ac703efaba10e9&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:22&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Service Catalog"&gt;c43a1011c36813002841b63b12d3ae15&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;service_catalog&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=4672c3eb937b7110d0ac703efaba10e9"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=0a72c3eb937b7110d0ac703efaba1083"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=0a72c3eb937b7110d0ac703efaba1083^sys_idNOT IN8a72c3eb937b7110d0ac703efaba1084"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;0a72c3eb937b7110d0ac703efaba1083&lt;/id&gt;&lt;name&gt;Employee Separation &lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;8a72c3eb937b7110d0ac703efaba1084&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:22&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8a72c3eb937b7110d0ac703efaba1084"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=0a72c3eb937b7110d0ac703efaba1083^sys_idNOT IN8672c3eb937b7110d0ac703efaba10b2,8e72c3eb937b7110d0ac703efaba1085"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Employee Separation "&gt;0a72c3eb937b7110d0ac703efaba1083&lt;/model&gt;&lt;model_id&gt;0a72c3eb937b7110d0ac703efaba1083&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_0a72c3eb937b7110d0ac703efaba1083&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sc_req_item"&gt;sc_req_item&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;8672c3eb937b7110d0ac703efaba10b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:21&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8672c3eb937b7110d0ac703efaba10b2"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;sc_req_item&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Employee Separation "&gt;0a72c3eb937b7110d0ac703efaba1083&lt;/model&gt;&lt;model_id&gt;0a72c3eb937b7110d0ac703efaba1083&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_0a72c3eb937b7110d0ac703efaba1083&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;true&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;8e72c3eb937b7110d0ac703efaba1085&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:21&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8e72c3eb937b7110d0ac703efaba1085"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=0a72c3eb937b7110d0ac703efaba1083"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=0a72c3eb937b7110d0ac703efaba1083"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=0a72c3eb937b7110d0ac703efaba1083^sys_idNOT IN4e72c3eb937b7110d0ac703efaba10c9,c672c3eb937b7110d0ac703efaba10c2,ca72c3eb937b7110d0ac703efaba10d1,ce72c3eb937b7110d0ac703efaba10e6"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;&lt;action_type_parent display_value="Create Record"&gt;02f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Employee Separation "&gt;0a72c3eb937b7110d0ac703efaba1083&lt;/flow&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;4e72c3eb937b7110d0ac703efaba10c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:21&lt;/sys_updated_on&gt;&lt;ui_id&gt;4d887fd9-6dc3-4431-bcfa-eda23220cb44&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=4e72c3eb937b7110d0ac703efaba10c9"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;4e72c3eb937b7110d0ac703efaba10c9&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;4272c3eb937b7110d0ac703efaba10cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:22&lt;/sys_updated_on&gt;&lt;value&gt;x_994488_hr_human_resource&lt;/value&gt;&lt;variable display_value="Table"&gt;61e05916c31332002841b63b12d3aee4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=4e72c3eb937b7110d0ac703efaba10c9"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;4e72c3eb937b7110d0ac703efaba10c9&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;0e72c3eb937b7110d0ac703efaba10ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:22&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;4e72c3eb937b7110d0ac703efaba10c9&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;ce72c3eb937b7110d0ac703efaba10ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:22&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1&lt;/table&gt;&lt;value&gt;source={{Service Catalog_1.request_item}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=4e72c3eb937b7110d0ac703efaba10c9"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=4e72c3eb937b7110d0ac703efaba10c9"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Get Catalog Variables"&gt;330ba3abc31013002841b63b12d3aee8&lt;/action_type&gt;&lt;action_type_parent display_value="Get Catalog Variables"&gt;22f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Employee Separation "&gt;0a72c3eb937b7110d0ac703efaba1083&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;c672c3eb937b7110d0ac703efaba10c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:21&lt;/sys_updated_on&gt;&lt;ui_id&gt;d9f363d5-abb6-49b0-a3e5-e9fb68cd881e&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=c672c3eb937b7110d0ac703efaba10c2"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;c672c3eb937b7110d0ac703efaba10c2&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;0272c3eb937b7110d0ac703efaba10c4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:22&lt;/sys_updated_on&gt;&lt;value&gt;86c019ae937bb110d0ac703efaba1022:item_option_new,52d1112293bbb110d0ac703efaba10f3:item_option_new,5872952293bbb110d0ac703efaba1061:item_option_new,0ba29dee937bb110d0ac703efaba1075:item_option_new,30635d6293bbb110d0ac703efaba10aa:item_option_new,90b3992293bbb110d0ac703efaba109d:item_option_new,985459a293bbb110d0ac703efaba10b9:item_option_new,d52559a293bbb110d0ac703efaba10d8:item_option_new,d56511a293bbb110d0ac703efaba106b:item_option_new&lt;/value&gt;&lt;variable display_value="Catalog Variables"&gt;7b0ba3abc31013002841b63b12d3aef7&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;c672c3eb937b7110d0ac703efaba10c2&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;c272c3eb937b7110d0ac703efaba10c4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:22&lt;/sys_updated_on&gt;&lt;value&gt;b0cf0962937bb110d0ac703efaba1006&lt;/value&gt;&lt;variable display_value="Template Catalog Items and Variable Sets"&gt;bb0ba3abc31013002841b63b12d3aef1&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=c672c3eb937b7110d0ac703efaba10c2"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;catalog_variables&lt;/field&gt;&lt;id&gt;c672c3eb937b7110d0ac703efaba10c2&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;0a72c3eb937b7110d0ac703efaba10c3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:22&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;requested_item&lt;/field&gt;&lt;id&gt;c672c3eb937b7110d0ac703efaba10c2&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;8e72c3eb937b7110d0ac703efaba10c3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:22&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8&lt;/table&gt;&lt;value&gt;{{Service Catalog_1.request_item}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;template_catalog_item&lt;/field&gt;&lt;id&gt;c672c3eb937b7110d0ac703efaba10c2&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;ca72c3eb937b7110d0ac703efaba10c3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:22&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=c672c3eb937b7110d0ac703efaba10c2"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=c672c3eb937b7110d0ac703efaba10c2"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Task"&gt;2b3a6335531003003bf1d9109ec58759&lt;/action_type&gt;&lt;action_type_parent display_value="Create Task"&gt;3f9b1ff1531003003bf1d9109ec58775&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Employee Separation "&gt;0a72c3eb937b7110d0ac703efaba1083&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:23&lt;/sys_created_on&gt;&lt;sys_id&gt;ca72c3eb937b7110d0ac703efaba10d1&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:21&lt;/sys_updated_on&gt;&lt;ui_id&gt;c0dffb1a-1d1c-48c2-a859-0f4f2dffc139&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=ca72c3eb937b7110d0ac703efaba10d1"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;ca72c3eb937b7110d0ac703efaba10d1&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:23&lt;/sys_created_on&gt;&lt;sys_id&gt;4272c3eb937b7110d0ac703efaba10d3&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:21&lt;/sys_updated_on&gt;&lt;value&gt;x_994488_hr_hr_task&lt;/value&gt;&lt;variable display_value="Table"&gt;e73a6335531003003bf1d9109ec5875c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=ca72c3eb937b7110d0ac703efaba10d1"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;field_values&lt;/field&gt;&lt;id&gt;ca72c3eb937b7110d0ac703efaba10d1&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:23&lt;/sys_created_on&gt;&lt;sys_id&gt;ce72c3eb937b7110d0ac703efaba10d2&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:21&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759&lt;/table&gt;&lt;value&gt;short_description=Resignatin or Termination Notice for :{{d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.employee_leaving.name}}^description=Recieve and document the employee's resignation or termination notice^requested_for={{d9f363d5-abb6-49b0-a3e5-e9fb68cd881e.requested_by}}^assignment_group={"display":"General HR","value":"26fffc8493373110d0ac703efaba1093","sys_id":"26fffc8493373110d0ac703efaba1093"}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;task_table&lt;/field&gt;&lt;id&gt;ca72c3eb937b7110d0ac703efaba10d1&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:23&lt;/sys_created_on&gt;&lt;sys_id&gt;0e72c3eb937b7110d0ac703efaba10d2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:23&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=ca72c3eb937b7110d0ac703efaba10d1"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=ca72c3eb937b7110d0ac703efaba10d1"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Wait For Condition"&gt;89ce8a4187120010663ca1bb36cb0be3&lt;/action_type&gt;&lt;action_type_parent display_value="Wait For Condition"&gt;8bb9a8160b10030085c083eb37673aec&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Employee Separation "&gt;0a72c3eb937b7110d0ac703efaba1083&lt;/flow&gt;&lt;order&gt;4&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:23&lt;/sys_created_on&gt;&lt;sys_id&gt;ce72c3eb937b7110d0ac703efaba10e6&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:40:21&lt;/sys_updated_on&gt;&lt;ui_id&gt;f18a5442-c87b-4d54-b2b9-969b2e5bc0c6&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=ce72c3eb937b7110d0ac703efaba10e6"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;ce72c3eb937b7110d0ac703efaba10e6&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:23&lt;/sys_created_on&gt;&lt;sys_id&gt;4272c3eb937b7110d0ac703efaba10e9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:23&lt;/sys_updated_on&gt;&lt;value&gt;x_994488_hr_hr_task&lt;/value&gt;&lt;variable display_value="Table"&gt;45ce8a4187120010663ca1bb36cb0bea&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;ce72c3eb937b7110d0ac703efaba10e6&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:23&lt;/sys_created_on&gt;&lt;sys_id&gt;8e72c3eb937b7110d0ac703efaba10e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:23&lt;/sys_updated_on&gt;&lt;value&gt;state=3&lt;/value&gt;&lt;variable display_value="Conditions"&gt;49ce8a4187120010663ca1bb36cb0bef&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=ce72c3eb937b7110d0ac703efaba10e6"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;ce72c3eb937b7110d0ac703efaba10e6&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:23&lt;/sys_created_on&gt;&lt;sys_id&gt;4a72c3eb937b7110d0ac703efaba10e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:23&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;ce72c3eb937b7110d0ac703efaba10e6&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:23&lt;/sys_created_on&gt;&lt;sys_id&gt;8672c3eb937b7110d0ac703efaba10e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:23&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3&lt;/table&gt;&lt;value&gt;{{c0dffb1a-1d1c-48c2-a859-0f4f2dffc139.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;ce72c3eb937b7110d0ac703efaba10e6&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:23&lt;/sys_created_on&gt;&lt;sys_id&gt;0e72c3eb937b7110d0ac703efaba10e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:23&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=ce72c3eb937b7110d0ac703efaba10e6"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=ce72c3eb937b7110d0ac703efaba10e6"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=0a72c3eb937b7110d0ac703efaba1083"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=0a72c3eb937b7110d0ac703efaba1083"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=0a72c3eb937b7110d0ac703efaba1083"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=0a72c3eb937b7110d0ac703efaba1083"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0a72c3eb937b7110d0ac703efaba1083^sys_idNOT IN4e72c3eb937b7110d0ac703efaba10ae,8a72c3eb937b7110d0ac703efaba10b6"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_0a72c3eb937b7110d0ac703efaba1083&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;4e72c3eb937b7110d0ac703efaba10ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Human Resource" source="x_994488_hr"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:22&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_0a72c3eb937b7110d0ac703efaba1083&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:22&lt;/sys_created_on&gt;&lt;sys_id&gt;8a72c3eb937b7110d0ac703efaba10b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Human Resource" source="x_994488_hr"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resource"&gt;c90746c593033110d0ac703efaba1028&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:22&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0a72c3eb937b7110d0ac703efaba1083"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_0a72c3eb937b7110d0ac703efaba1083"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0a72c3eb937b7110d0ac703efaba1083"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;f785b2e7933b7110d0ac703efaba1004&lt;/sys_id&gt;&lt;latest_snapshot&gt;0a72c3eb937b7110d0ac703efaba1083&lt;/latest_snapshot&gt;&lt;compiler_build/&gt;&lt;/sys_hub_flow&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=f785b2e7933b7110d0ac703efaba1004^sys_idNOT IN127207eb937b7110d0ac703efaba1024"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.RunAlways&lt;/binding_strategy&gt;&lt;plan/&gt;&lt;plan_id&gt;f785b2e7933b7110d0ac703efaba1004&lt;/plan_id&gt;&lt;snapshot&gt;0a72c3eb937b7110d0ac703efaba1083&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 05:20:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;127207eb937b7110d0ac703efaba1024&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 05:20:24&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;1a7207eb937b7110d0ac703efaba1023&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=f785b2e7933b7110d0ac703efaba1004"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>226034151</payload_hash>
+        <record_name>Employee Separation </record_name>
+        <reverted_from/>
+        <source>0287c24993033110d0ac703efaba1051</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 05:40:23</sys_created_on>
+        <sys_id>4707cb2393bb7110d0ac703efaba10d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d39fbd99d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 05:40:23</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>4f07cb238ebb71106b4d799976d6bdd0</update_guid>
+        <update_guid_history>4f07cb238ebb71106b4d799976d6bdd0:226034151,da078b23eebb7110a3cfc254076ed994:-2030201577,30074b23fbbb711055554936ad21f59e:-1388503327,47e547ef047b7110d17646c7002b1195:1248553442,45e507ef4a7b7110f40ce85d0d093e8c:-143060304,ee7207ebb27b7110df5fb564f7576586:1571116207,7172c3ebf27b711008907b2954a1785e:-765356307,5a328fab257b7110a0e35a561237ee99:-1727461593,3b85b2e7d63b7110d74e7226d1a7d30d:394402045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-26 20:51:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>29883119e2fb46f68fdaec40633b68f1</sys_id>
+        <sys_metadata>f785b2e7933b7110d0ac703efaba1004</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Separation </sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_scope_delete display_value="">4f4f1a97f8834ca8bfb74c0066966840</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_f785b2e7933b7110d0ac703efaba1004</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_f785b2e7933b7110d0ac703efaba1004">4707cb2393bb7110d0ac703efaba10d1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-26 20:51:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

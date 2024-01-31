@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>close_code</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-10 06:52:51</sys_created_on>
+        <sys_id>f2c76b0993c73110d0ac703efaba1081</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>close_code</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f2c76b0993c73110d0ac703efaba1081</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-10 06:52:51</sys_updated_on>
+        <table>x_994488_hr_human_resource</table>
+        <ui_policy display_value="closed info form section">0f77a38593c73110d0ac703efaba1072</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

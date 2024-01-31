@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="ce5906c993033110d0ac703efaba10fb" extends="task" label="Human Resource" max_length="40" name="x_994488_hr_human_resource" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Close Code" max_length="40" name="close_code" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Duplicate Ticket" sequence="100" value="duplicate_ticket"/>
+                <element inactive_on_update="false" label="Information Not Available" sequence="200" value="information_not_available"/>
+                <element inactive_on_update="false" label="No Action Required" sequence="300" value="no_action_required"/>
+                <element inactive_on_update="false" label="Out of Scope" sequence="400" value="out_of_scope"/>
+                <element inactive_on_update="false" label="Policy Clarification Provided" sequence="500" value="policy_clarification_provided"/>
+                <element inactive_on_update="false" label="Resolved by Employee" sequence="600" value="resolved_by_employee"/>
+                <element inactive_on_update="false" label="Resolved Successfully" sequence="700" value="resolved_successfully"/>
+                <element inactive_on_update="false" label="Other" sequence="800" value="other"/>
+            </choice>
+        </element>
+        <element label="Requested_for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Resolved" max_length="40" name="resolved" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Resolved by" max_length="32" name="resolved_by" reference="sys_user" type="reference"/>
+        <element label="Source" max_length="32" name="source" read_only="true" reference="sc_cat_item" type="reference"/>
+        <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Benefits" sequence="100" value="benefits"/>
+                <element inactive_on_update="false" label="Confidential" sequence="200" value="confidential"/>
+                <element inactive_on_update="false" label="General HR" sequence="300" value="general_hr"/>
+                <element inactive_on_update="false" label="Payroll" sequence="400" value="payroll"/>
+                <element inactive_on_update="false" label="Training" sequence="500" value="training"/>
+            </choice>
+        </element>
+    </element>
+</database>

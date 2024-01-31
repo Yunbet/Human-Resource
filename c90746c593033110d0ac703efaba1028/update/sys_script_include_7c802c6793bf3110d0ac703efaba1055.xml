@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_994488_hr.employeeLeaveUtility</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>employeeLeaveUtility</name>
+        <script><![CDATA[var employeeLeaveUtility = Class.create();
+employeeLeaveUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getLocation: function(){
+		var location = '';
+	
+		var userID = this.getParameter('sysparm_user_id'); //gets hold of USERID for client script ,the syssparm user id holds the sysy id of the employee leaving and stores it in our USERID variable
+
+		var gr = new GlideRecord('sys_user'); //opens door to all the records in sys user table.
+		gr.addQuery('sys_id', userID); //querying the user records to find sys id that matches (userid) from our client script
+		gr.query(); //excecutes search
+
+		if(gr.next()){  //if our query is excecuted meaning we found a record ^
+            location = gr.location; //set our location variable to the sys id of the location of that particular user record
+        }
+
+
+        return location; //  returns the value of users location
+
+
+    },
+
+
+    getContactNumber: function(){
+        var contactnumber = '';
+        var userID = this.getParameter('sysparm_user_id');
+
+
+        var gr = new GlideRecord('sys_user'); //opens door to all the records in sys user table.
+        gr.addQuery('sys_id', userID); //querying the user records to find sys id that matches (userid) from our client script
+        gr.query(); //excecutes search
+
+
+        if(gr.next()){
+            contactnumber = gr.phone;
+        }
+
+
+        return contactnumber;
+
+
+    },
+
+
+    getEmail: function(){
+        var email = '';
+        var userID = this.getParameter('sysparm_user_id');
+
+
+        var gr = new GlideRecord('sys_user'); //opens door to all the records in sys user table.
+        gr.addQuery('sys_id', userID); //querying the user records to find sys id that matches (userid) from our client script
+        gr.query(); //excecutes search
+
+
+        if(gr.next()){
+            email = gr.email;
+        }
+
+
+        return email;
+
+	},
+
+    type: 'employeeLeaveUtility'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 19:26:52</sys_created_on>
+        <sys_id>7c802c6793bf3110d0ac703efaba1055</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>employeeLeaveUtility</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name>sys_script_include_7c802c6793bf3110d0ac703efaba1055</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 22:02:10</sys_updated_on>
+    </sys_script_include>
+</record_update>

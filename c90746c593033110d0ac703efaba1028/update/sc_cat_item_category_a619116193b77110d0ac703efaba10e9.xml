@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="HR General Inquiry">c118d92d93777110d0ac703efaba1040</sc_cat_item>
+        <sc_category display_value="Human Resource">942c4d5593f33110d0ac703efaba10bc</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-17 16:32:09</sys_created_on>
+        <sys_id>a619116193b77110d0ac703efaba10e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Human Resource.HR General Inquiry</sys_name>
+        <sys_package display_value="Human Resource" source="x_994488_hr">c90746c593033110d0ac703efaba1028</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">c90746c593033110d0ac703efaba1028</sys_scope>
+        <sys_update_name>sc_cat_item_category_a619116193b77110d0ac703efaba10e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-17 16:32:09</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
